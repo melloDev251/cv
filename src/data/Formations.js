@@ -1,7 +1,7 @@
 const dataFormations = [
   {
     id: 1,
-    title: "Etude 4ème année en Génie Logiciel",
+    title: "4ème année d'étude en Génie Logiciel",
     date: "2020 à présent",
     location: "Institut IS-INFO",
   },
