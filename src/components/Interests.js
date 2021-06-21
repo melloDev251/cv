@@ -7,7 +7,7 @@ const Interests = () => {
       <ul>
         <li>Jeux videos</li>
         <li>Musique</li>
-        <li>BasketBall</li>
+        <li>Sports</li>
       </ul>
     </div>
   );
