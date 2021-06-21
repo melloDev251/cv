@@ -21,7 +21,7 @@ const User = () => {
         </p>
         <p className="user__info">
           <i className="fas fa-heart"></i>
-          <a href="tel:+2614847065"> Célibataire</a>
+          Célibataire
         </p>
       </div>
     </div>

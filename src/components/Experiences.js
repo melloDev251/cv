@@ -4,7 +4,7 @@ const Experiences = ({ dataExp }) => {
   //   console.log(dataExp);
   return (
     <div className="cursus mb3">
-      <h2 className="h2">Expériences</h2>
+      <h2 className="h2">Stages & Expériences</h2>
       <hr style={{ marginTop: "-20px", marginBottom: "20px" }} />
       {dataExp.map((item) => (
         <div className="grid__row" key={item.id} style={{ marginLeft: "30px" }}>

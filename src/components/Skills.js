@@ -22,7 +22,7 @@ const Skills = () => {
         <SkillsContents title="Malagasy" rating="5" />
         <SkillsContents title="Français" rating="4" />
         <SkillsContents title="Anglais" rating="2" />
-        <SkillsContents title="Espagnol" rating="1" />
+        {/* <SkillsContents title="Espagnol" rating="1" /> */}
       </div>
       <Interests />
     </div>

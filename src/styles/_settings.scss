@@ -79,6 +79,7 @@ h2 {
   font-size: var(--h2-font-size);
   letter-spacing: 4px;
   text-transform: uppercase;
+
 }
 
 h3 {
@@ -291,10 +292,20 @@ font-size: 100%;
   
 }
 
-// .cv-print hr {
-//   margin-top: -100px;
-//   margin: 10 10 10 30;
-// }
+.cv-print .cursor {
+  width: 52px;
+  height: 52px;
+  border: 2px solid var(--text-color);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.5s ease;
+  transition-property: background, transform;
+  transition: top 100ms ease-out;
+  transition: left 100ms ease-out;
+  z-index: 2;
+}
 
 
 

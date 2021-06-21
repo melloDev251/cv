@@ -21,6 +21,7 @@ const Home = () => {
       print("cv", "cv-print");
       cvTemplate.setAttribute("style", "width:100% !important");
       cvTemplate.classList.remove("cv-print");
+
     }, 300);
   };
 

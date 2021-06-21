@@ -14,12 +14,12 @@ export const dataExperiences = [
       {
         id: 2,
         title:
-          "Conception et architecture de l'application basé sur une solution PHP",
+          "Développement des composants avec PHP",
       },
       {
         id: 3,
         title:
-          "Conception et architecture de l'application basé sur une solution PHP",
+          "Gestion des accès au pages et erreurs techniques",
       },
     ],
   },
