@@ -3,7 +3,7 @@ import React from "react";
 const User = () => {
   return (
     <div className="user">
-      <img className="user__avatar" src="./media/image2.png" alt="user-img" style={{width:'150px'}} />
+      <img className="user__avatar" src="./media/image.png" alt="user-img" style={{width:'150px'}} />
       <h1 className="user__name">Mello Dev</h1>
       <p className="user__profession">Développeur Web</p>
       <div className="user__infos">
