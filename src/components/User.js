@@ -13,7 +13,7 @@ const User = () => {
         </p>
         <p className="user__info">
           <i className="fas fa-headset"></i>
-          <a href="tel:+2614847065"> 0344847065</a>
+          <a href="tel:+2614847065"> 034 48 470 65</a>
         </p>
         <p className="user__info">
           <i className="fas fa-envelope-open"></i>
