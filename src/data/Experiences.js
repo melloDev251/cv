@@ -3,7 +3,7 @@ export const dataExperiences = [
     id: 1,
     title: "Stagiaire Développeur Web",
     date: "12/04/2019 - 15/07/2019",
-    location: "TEMULAB Itaosy",
+    location: "TEMULAB",
     text: "Création d'une application web d'un centre de fitness",
     missions: [
       {
