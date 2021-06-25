@@ -2,7 +2,7 @@ export const dataExperiences = [
   {
     id: 1,
     title: "Stagiaire Développeur Web",
-    date: "12/04/2019 - 15/07/2019",
+    date: "12/04/2020 - 15/07/2020",
     location: "TEMULAB",
     text: "Création d'une application web d'un centre de fitness",
     missions: [
@@ -27,9 +27,9 @@ export const dataExperiences = [
   {
     id: 2,
     title: "Opérateur de saisie",
-    date: "08/03/2018 - 15/01/2020",
+    date: "08/02/2018 - 22/06/2019",
     location: "ElineSoft&Data",
-    text: "Simple intro",
+    text: "Charger de suivie et correction des documents",
     missions: [
       {
         id: 1,

@@ -5,11 +5,11 @@ const dataOtherCompetences = [
     },
     {
         id:2,
-        title:"MongoDB | PosgreSQL | MySQL"
+        title:"MongoDB | PostgreSQL | MySQL"
     },
     {
         id:3,
-        title:"Git | Github"
+        title:"API REST | Github"
     },
     {
         id:4,

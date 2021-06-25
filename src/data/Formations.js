@@ -1,7 +1,7 @@
 const dataFormations = [
   {
     id: 1,
-    title: "4ème année d'étude en Génie Logiciel",
+    title: "4ème année d'étude en génie logiciel et développement web",
     date: "2020 à présent",
     location: "Institut IS-INFO",
   },
@@ -20,7 +20,7 @@ const dataFormations = [
   {
     id: 4,
     title: "Brevet d'Etude Proféssionnelle en BTP",
-    date: "2015 - 2016",
+    date: "2014 - 2015",
     location: "Lycée LTPGCM",
   },
 ];
