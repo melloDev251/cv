@@ -32,7 +32,7 @@ const Home = () => {
           <div className="actions">
             <DarkMode />
             <button onClick={handleGenerateCv}>
-              <i className="fas fa-print fa-2x" data-tip="Cliquer pour générer en format pdf"></i>
+              <i className="fas fa-print fa-2x" data-tip="Cliquer pour générer en format PDF"></i>
             </button>
             <ReactTooltip place="bottom" type="dark" textColor="#ffffff" effect="float" />
           </div>
