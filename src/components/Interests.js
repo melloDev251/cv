@@ -7,7 +7,6 @@ const Interests = () => {
       <ul>
         <li>Autodidacte</li>
         <li>Créatif</li>
-        <li>Capacité d'écoute</li>
         <li>Apte à travailler en équipe</li>
       </ul>
     </div>
