@@ -8,9 +8,8 @@ const Profil = () => {
         Passionné par l’univers du web et doté d’une grande curiosité, je suis
         diplômé de l’institut IS-INFO. Polyvalent et forte motivation dans tout
         ce que j’entreprends, j’aimerais être spécialisé dans le développement
-        front-end, je suis aussi capable de faire comme de l’intégration web ou
-        du webdesign. Je suis aujourd’hui à la recherche de nouvelles
-        opportunités.
+        frontend, mais aussi capable de faire des innovations techniques côté
+        backend. Je suis aujourd’hui à la recherche de nouvelles opportunités.
       </p>
     </div>
   );

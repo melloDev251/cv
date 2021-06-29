@@ -13,13 +13,11 @@ export const dataExperiences = [
       },
       {
         id: 2,
-        title:
-          "Développement des composants avec PHP",
+        title: "Développement des composants avec PHP",
       },
       {
         id: 3,
-        title:
-          "Gestion des accès au pages et erreurs techniques",
+        title: "Gestion des accès au pages et erreurs techniques",
       },
     ],
   },
@@ -33,13 +31,11 @@ export const dataExperiences = [
     missions: [
       {
         id: 1,
-        title:
-          "Analyser et vérifier la conformités des documents réçus",
+        title: "Analyser et vérifier la conformités des documents réçus",
       },
       {
         id: 2,
-        title:
-          "Saisie des documents",
+        title: "Numériser et corriger des documents",
       },
     ],
   },

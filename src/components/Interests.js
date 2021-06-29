@@ -3,11 +3,12 @@ import React from "react";
 const Interests = () => {
   return (
     <div className="skills">
-      <h2 className="h2">Centres d'intérêts</h2>
+      <h2 className="h2">Qualités</h2>
       <ul>
-        <li>Jeux videos</li>
-        <li>Musique</li>
-        <li>Sports</li>
+        <li>Autodidacte</li>
+        <li>Créatif</li>
+        <li>Capacité d'écoute</li>
+        <li>Apte à travailler en équipe</li>
       </ul>
     </div>
   );
