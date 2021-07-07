@@ -21,7 +21,6 @@ const Home = () => {
       print("cv", "cv-print");
       cvTemplate.setAttribute("style", "width:100% !important");
       cvTemplate.classList.remove("cv-print");
-
     }, 300);
   };
 
@@ -32,9 +31,21 @@ const Home = () => {
           <div className="actions">
             <DarkMode />
             <button onClick={handleGenerateCv}>
-              <i className="fas fa-print fa-2x" data-tip="Cliquer pour générer en format PDF"></i>
+              <i
+                className="fas fa-print fa-2x"
+                data-tip="Cliquer pour générer en format PDF"
+              ></i>
             </button>
-            <ReactTooltip place="bottom" type="dark" textColor="#ffffff" effect="float" />
+            <ReactTooltip
+              place="bottom"
+              type="dark"
+              textColor="dark"
+              effect="float"
+              className="tools"
+              backgroundColor="white"
+              borderColor="black"
+              border="5px true"
+            />
           </div>
           <User />
           <Skills />
