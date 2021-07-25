@@ -16,7 +16,7 @@ const Formations = ({ dataFor }) => {
             <p className="grid__location"> {item.location} </p>
           </div>
         </div>
-      ))}
+      ))}gi
     </div>
   );
 };
