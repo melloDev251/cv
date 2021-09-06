@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const DarkMode = () => {
-  const [themeMode, setThemeMode] = useState("");
+  const [themeMode, setThemeMode] = useState("light");
   let theme;
   let clickedClass = "clicked";
   const body = document.body;
@@ -20,7 +20,7 @@ const DarkMode = () => {
   }
 
   const switchTheme = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     if (theme === darkTheme) {
       body.classList.replace(darkTheme, lightTheme);
       e.target.classList.remove(clickedClass);
@@ -35,20 +35,20 @@ const DarkMode = () => {
     setThemeMode(theme, themeMode);
   };
 
-  useEffect(() => {
-    setThemeMode(!themeMode)
-  }, [themeMode, theme]);
+  // useEffect(() => {
+  //   setThemeMode(!themeMode, theme);
+  // }, [themeMode, theme]);
 
   return (
     <button
-      className={theme === "dark" ? clickedClass : "light"}
+      className={theme === "dark" ? clickedClass : ""}
       id="darkMode"
       onClick={(e) => switchTheme(e)}
     >
-      {themeMode === "dark" || theme === "dark" ? (
-        <i className="fas fa-sun fa-2x"></i>
-      ) : (
+      {themeMode === "light" || theme === "light" ? (
         <i className="fas fa-moon fa-2x"></i>
+      ) : (
+        <i className="fas fa-sun fa-2x"></i>
       )}
     </button>
   );

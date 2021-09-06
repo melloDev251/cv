@@ -1,7 +1,7 @@
 import React from "react";
 
 const OtherCompétences = ({ dataOth }) => {
-  console.log(dataOth);
+  // console.log(dataOth);
   return (
     <div className="cursus mb3">
       <h2 className="h2">Autres Compétences</h2>
