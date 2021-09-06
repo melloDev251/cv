@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const DarkMode = () => {
-  const [themeMode, setThemeMode] = useState("");
+  const [themeMode, setThemeMode] = useState("light");
+  // const [value, setValue] = useState("")
   let theme;
   let clickedClass = "clicked";
   const body = document.body;
@@ -20,7 +21,7 @@ const DarkMode = () => {
   }
 
   const switchTheme = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     if (theme === darkTheme) {
       body.classList.replace(darkTheme, lightTheme);
       e.target.classList.remove(clickedClass);
@@ -32,23 +33,23 @@ const DarkMode = () => {
       localStorage.setItem("theme", "dark");
       theme = darkTheme;
     }
-    setThemeMode(theme, themeMode);
+    setThemeMode(theme);
   };
 
-  useEffect(() => {
-    setThemeMode(!themeMode)
-  }, [themeMode, theme]);
+  // useEffect(() => {
+  //   setThemeMode(!themeMode);
+  // }, [themeMode]);
 
   return (
     <button
-      className={theme === "dark" ? clickedClass : "light"}
+      className={theme === "dark" ? clickedClass : "clicked"}
       id="darkMode"
       onClick={(e) => switchTheme(e)}
     >
-      {themeMode === "dark" || theme === "dark" ? (
-        <i className="fas fa-sun fa-2x"></i>
-      ) : (
+      {themeMode === "light" || theme === "light" ? (
         <i className="fas fa-moon fa-2x"></i>
+      ) : (
+        <i className="fas fa-sun fa-2x"></i>
       )}
     </button>
   );
