@@ -3,6 +3,9 @@ import React, { useState, useEffect } from "react";
 const DarkMode = () => {
   const [themeMode, setThemeMode] = useState("light");
   // const [value, setValue] = useState("")
+
+const DarkMode = () => {
+  const [themeMode, setThemeMode] = useState("light");
   let theme;
   let clickedClass = "clicked";
   const body = document.body;
@@ -37,12 +40,21 @@ const DarkMode = () => {
   };
 
   // useEffect(() => {
+<<<<<<< HEAD
   //   setThemeMode(!themeMode);
   // }, [themeMode]);
 
   return (
     <button
       className={theme === "dark" ? clickedClass : "clicked"}
+=======
+  //   setThemeMode(!themeMode, theme);
+  // }, [themeMode, theme]);
+
+  return (
+    <button
+      className={theme === "dark" ? clickedClass : ""}
+>>>>>>> ad94e9316e9e59e6747c282ee0d81efa77a67c99
       id="darkMode"
       onClick={(e) => switchTheme(e)}
     >
